@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "templatePath",
+      "type": "java.lang.String",
+      "description": "Description for templatePath."
+    }
+  ] }

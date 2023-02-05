@@ -1,0 +1,16 @@
+templatePath: ${TEMPLATE_PATH:C:/Users/catch/IdeaProjects/orion/src/main/resources/templates/template.xlsx}
+spring:
+  liquibase:
+    enabled: true
+    drop-first: false
+    change-log: db.changelog/db.changelog-master.yaml
+    default-schema: public
+  jpa:
+    database: POSTGRESQL
+    properties:
+      hibernate:
+        default_schema: orion
+  datasource:
+    url: jdbc:postgresql://localhost:5432/orion
+    username: postgres
+    password: root
